@@ -1,0 +1,37 @@
+{"@t":"2023-06-25T20:52:23.8937097Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["37.5306"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":37.5306,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLNO5LKV86:00000011","ConnectionId":"0HMRLNO5LKV86"}
+{"@t":"2023-06-25T20:52:32.7476920Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["23.9988"],"RequestMethod":"GET","RequestPath":"/teams","StatusCode":200,"Elapsed":23.9988,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLNO5LKV86:00000013","ConnectionId":"0HMRLNO5LKV86"}
+{"@t":"2023-06-25T21:05:34.2323386Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["37.6363"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":37.6363,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLNVB5JJ6N:00000011","ConnectionId":"0HMRLNVB5JJ6N"}
+{"@t":"2023-06-25T21:06:12.8585389Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T21:07:29.6142018Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-06-25T21:07:29.9777546Z","@mt":"Creating route maps"}
+{"@t":"2023-06-25T21:07:29.9811441Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T21:07:43.2902548Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["36.8446"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":36.8446,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLO0O1ISEJ:00000009","ConnectionId":"0HMRLO0O1ISEJ"}
+{"@t":"2023-06-25T21:07:51.2675642Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["44.0518"],"RequestMethod":"GET","RequestPath":"/games/final","StatusCode":200,"Elapsed":44.0518,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLO0O1ISEJ:0000000B","ConnectionId":"0HMRLO0O1ISEJ"}
+{"@t":"2023-06-25T21:08:00.2111504Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["4.5585"],"RequestMethod":"GET","RequestPath":"/teams","StatusCode":200,"Elapsed":4.5585,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLO0O1ISEJ:0000000D","ConnectionId":"0HMRLO0O1ISEJ"}
+{"@t":"2023-06-25T21:15:31.0506357Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["2.1822"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":2.1822,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLO0O1ISEK:00000011","ConnectionId":"0HMRLO0O1ISEK"}
+{"@t":"2023-06-25T21:26:45.5331402Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-06-25T21:26:45.8992918Z","@mt":"Creating route maps"}
+{"@t":"2023-06-25T21:26:45.9027984Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T21:32:29.7781768Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-06-25T21:32:30.1450547Z","@mt":"Creating route maps"}
+{"@t":"2023-06-25T21:32:30.1486827Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T21:32:58.8804341Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["33.0851"],"RequestMethod":"GET","RequestPath":"/teams","StatusCode":200,"Elapsed":33.0851,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLOEN4IDTJ:00000011","ConnectionId":"0HMRLOEN4IDTJ"}
+{"@t":"2023-06-25T21:50:43.0606928Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["29.9371"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":29.9371,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLOEN4IDTM:00000001","ConnectionId":"0HMRLOEN4IDTM"}
+{"@t":"2023-06-25T21:57:18.6461375Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-06-25T21:57:19.0081426Z","@mt":"Creating route maps"}
+{"@t":"2023-06-25T21:57:19.0114344Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T21:58:50.7091495Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-06-25T21:58:51.0874888Z","@mt":"Creating route maps"}
+{"@t":"2023-06-25T21:58:51.0909893Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T22:25:10.1232041Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-06-25T22:25:10.6216543Z","@mt":"Creating route maps"}
+{"@t":"2023-06-25T22:25:10.6254879Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T22:25:13.6101813Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["0.3612"],"RequestMethod":"GET","RequestPath":"/","StatusCode":404,"Elapsed":0.3612,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLPC4U52PF:00000001","ConnectionId":"0HMRLPC4U52PF"}
+{"@t":"2023-06-25T22:25:29.9927246Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["38.1397"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":38.1397,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLPC4U52PF:00000015","ConnectionId":"0HMRLPC4U52PF"}
+{"@t":"2023-06-25T23:38:25.9711228Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-06-25T23:38:26.4433136Z","@mt":"Creating route maps"}
+{"@t":"2023-06-25T23:38:26.4471831Z","@mt":"Successfully started..."}
+{"@t":"2023-06-25T23:38:26.9868398Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["0.4675"],"RequestMethod":"GET","RequestPath":"/","StatusCode":404,"Elapsed":0.4675,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLQL30EC4R:00000001","ConnectionId":"0HMRLQL30EC4R"}
+{"@t":"2023-06-25T23:38:38.8711212Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["37.9037"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":37.9037,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLQL30EC4R:0000000B","ConnectionId":"0HMRLQL30EC4R"}
+{"@t":"2023-06-25T23:39:08.9229420Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["55.6270"],"RequestMethod":"PATCH","RequestPath":"/games/1","StatusCode":204,"Elapsed":55.627,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLQL30EC4R:0000000D","ConnectionId":"0HMRLQL30EC4R"}
+{"@t":"2023-06-25T23:39:19.7077872Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["7.1321"],"RequestMethod":"GET","RequestPath":"/games/final","StatusCode":200,"Elapsed":7.1321,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMRLQL30EC4R:0000000F","ConnectionId":"0HMRLQL30EC4R"}
