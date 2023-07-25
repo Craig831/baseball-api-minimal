@@ -53,12 +53,9 @@ try
 
     app.UseHttpsRedirection();
 
-    // add this? 
-    //.WithName("DeleteTeam")
-    //.WithOpenApi();
-
     Log.Information("Creating route maps");
     var gameEndpoints = app.MapGroup("/games");
+
     gameEndpoints.MapGet("/", GetGames)
         .WithOpenApi(op =>
         {
@@ -103,6 +100,7 @@ try
         });
 
     var teamEndpoints = app.MapGroup("/teams");
+
     teamEndpoints.MapGet("/", GetTeams)
         .WithOpenApi(op =>
         {
@@ -189,10 +187,9 @@ static async Task<IResult> UpdateGame(int id, Game updatedGame, GameDb db)
     await db.SaveChangesAsync();
 
     return TypedResults.NoContent();
-
 }
 
-static async Task<IResult> UpdateGameScore(int id, ScoreUpdate scoreUpdate, GameDb db)
+static async Task<IResult> UpdateGameScore(int id, ScoreUpdateDTO scoreUpdate, GameDb db)
 {
     Game existingGame = await db.Games.FindAsync(id);
 

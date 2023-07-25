@@ -1,6 +1,6 @@
 ﻿namespace Api.Models
 {
-    public class ScoreUpdate
+    public class ScoreUpdateDTO
     {
         public int Id { get; set; }
         public int HomeTeamScore { get; set; }

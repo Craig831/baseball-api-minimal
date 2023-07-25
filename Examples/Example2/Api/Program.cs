@@ -118,7 +118,7 @@ try
         return op;
     });
 
-    app.MapPatch("/games/{id}", async (int id, ScoreUpdate scoreUpdate, GameDb db) =>
+    app.MapPatch("/games/{id}", async (int id, ScoreUpdateDTO scoreUpdate, GameDb db) =>
     {
         Game existingGame = await db.Games.FindAsync(id);
 
@@ -131,6 +131,16 @@ try
         await db.SaveChangesAsync();
 
         return Results.NoContent();
+    }).AddEndpointFilter(async (invocationContext, next) =>
+    {
+        var update = invocationContext.GetArgument<ScoreUpdateDTO>(1);
+
+        if (update.IsFinal && update.AwayTeamScore.Equals(update.HomeTeamScore))
+        {
+            Log.Information("Home and away scores cannot be the same if the game is a final.");
+            return Results.Problem("Home and away scores cannot be the same if the game is a final.");
+        }
+        return await next(invocationContext);
     })
     .WithOpenApi(op =>
     {

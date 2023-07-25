@@ -1,0 +1,36 @@
+{"@t":"2023-07-25T15:42:05.6803765Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:42:06.2533915Z","@mt":"Creating endpoints"}
+{"@t":"2023-07-25T15:42:06.2579780Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T15:42:06.3422020Z","@mt":"An unhandled exception occured during application startup","@l":"Fatal"}
+{"@t":"2023-07-25T15:43:05.4605987Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:43:05.9211966Z","@mt":"Creating endpoints"}
+{"@t":"2023-07-25T15:43:05.9253615Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T15:43:05.9884632Z","@mt":"An unhandled exception occured during application startup","@l":"Fatal"}
+{"@t":"2023-07-25T15:43:48.9590194Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:43:49.4120858Z","@mt":"Creating endpoints"}
+{"@t":"2023-07-25T15:43:49.4157104Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T15:44:47.7305133Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:44:48.1456325Z","@mt":"Creating endpoints"}
+{"@t":"2023-07-25T15:44:48.1501063Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T15:47:37.7018169Z","@mt":"An unhandled exception occured during application startup","@l":"Fatal"}
+{"@t":"2023-07-25T15:48:32.9229398Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:48:33.3252905Z","@mt":"Creating endpoints"}
+{"@t":"2023-07-25T15:48:33.3290513Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T16:25:07.9712625Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T16:25:08.4555564Z","@mt":"Creating endpoints"}
+{"@t":"2023-07-25T16:25:08.4587265Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T16:25:19.4025076Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["43.8516"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":43.8516,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:00000009","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:25:47.8161748Z","@mt":"Home and away scores cannot be the same if the game is a final.","RequestId":"0HMSD5ER7T8RI:0000000B","RequestPath":"/games/1","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:25:47.8195922Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["12.9343"],"@l":"Error","RequestMethod":"PATCH","RequestPath":"/games/1","StatusCode":500,"Elapsed":12.9343,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:0000000B","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:26:16.0235623Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["48.0882"],"RequestMethod":"GET","RequestPath":"/games/1","StatusCode":200,"Elapsed":48.0882,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:0000000D","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:26:22.1415383Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["8.3582"],"RequestMethod":"GET","RequestPath":"/games/final","StatusCode":200,"Elapsed":8.3582,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:0000000F","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:26:45.1424157Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["11.9007"],"RequestMethod":"PATCH","RequestPath":"/games/1","StatusCode":204,"Elapsed":11.9007,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:00000011","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:26:53.9630396Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["1.4200"],"RequestMethod":"GET","RequestPath":"/games/1","StatusCode":200,"Elapsed":1.42,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:00000013","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:27:05.5340226Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["1.2789"],"RequestMethod":"PATCH","RequestPath":"/games/1","StatusCode":204,"Elapsed":1.2789,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:00000015","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:27:11.4686854Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["1.0474"],"RequestMethod":"GET","RequestPath":"/games/1","StatusCode":200,"Elapsed":1.0474,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:00000017","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:27:14.6932013Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["0.6767"],"RequestMethod":"GET","RequestPath":"/games/final","StatusCode":200,"Elapsed":0.6767,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD5ER7T8RI:00000019","ConnectionId":"0HMSD5ER7T8RI"}
+{"@t":"2023-07-25T16:56:20.2633139Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T16:56:20.7285809Z","@mt":"Creating endpoints"}
+{"@t":"2023-07-25T16:56:20.7327676Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T16:56:26.2449725Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["40.4446"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":40.4446,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD6098S4OS:00000009","ConnectionId":"0HMSD6098S4OS"}
+{"@t":"2023-07-25T16:56:34.0471883Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["27.9865"],"RequestMethod":"GET","RequestPath":"/teams","StatusCode":200,"Elapsed":27.9865,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD6098S4OS:0000000B","ConnectionId":"0HMSD6098S4OS"}
