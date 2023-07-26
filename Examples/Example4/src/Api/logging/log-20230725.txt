@@ -1,0 +1,17 @@
+{"@t":"2023-07-25T15:48:52.2106542Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:48:52.7901191Z","@mt":"Creating route maps"}
+{"@t":"2023-07-25T15:48:52.7943434Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T15:48:52.8703157Z","@mt":"An unhandled exception occured during application startup","@l":"Fatal"}
+{"@t":"2023-07-25T15:49:21.8258341Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:49:22.2375731Z","@mt":"Creating route maps"}
+{"@t":"2023-07-25T15:49:22.2410507Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T15:49:30.6981737Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["44.7125"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":44.7125,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD4QRL8DJ6:00000009","ConnectionId":"0HMSD4QRL8DJ6"}
+{"@t":"2023-07-25T15:51:36.2057591Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T15:51:36.5694147Z","@mt":"Creating route maps"}
+{"@t":"2023-07-25T15:51:36.5736151Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T15:52:05.4676772Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["60.0489"],"RequestMethod":"GET","RequestPath":"/games/3","StatusCode":200,"Elapsed":60.0489,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD4S3LR8OJ:00000009","ConnectionId":"0HMSD4S3LR8OJ"}
+{"@t":"2023-07-25T16:55:52.8004688Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T16:55:53.1704855Z","@mt":"Creating route maps"}
+{"@t":"2023-07-25T16:55:53.1740775Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T16:55:57.9773373Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["41.5718"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":41.5718,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD6011DVRR:00000009","ConnectionId":"0HMSD6011DVRR"}
+{"@t":"2023-07-25T16:56:04.0030791Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["24.3596"],"RequestMethod":"GET","RequestPath":"/teams","StatusCode":200,"Elapsed":24.3596,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSD6011DVRR:0000000B","ConnectionId":"0HMSD6011DVRR"}

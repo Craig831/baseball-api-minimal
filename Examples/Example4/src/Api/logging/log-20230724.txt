@@ -1,0 +1,5 @@
+{"@t":"2023-07-25T04:06:19.3922737Z","@mt":"Initializing in-memory database"}
+{"@t":"2023-07-25T04:06:20.1613630Z","@mt":"Creating route maps"}
+{"@t":"2023-07-25T04:06:20.1738021Z","@mt":"Successfully started..."}
+{"@t":"2023-07-25T04:06:21.4260229Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["0.9331"],"RequestMethod":"GET","RequestPath":"/","StatusCode":404,"Elapsed":0.9331,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSCOI0DVVJK:00000001","ConnectionId":"0HMSCOI0DVVJK"}
+{"@t":"2023-07-25T04:07:01.7348593Z","@mt":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","@r":["86.3447"],"RequestMethod":"GET","RequestPath":"/games","StatusCode":200,"Elapsed":86.3447,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HMSCOI0DVVJK:0000000B","ConnectionId":"0HMSCOI0DVVJK"}
