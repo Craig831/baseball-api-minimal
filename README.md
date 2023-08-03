@@ -5,3 +5,12 @@ This repository was created to support my presentation at THAT Conference 2023: 
 
 ## Examples
 The example solutions are a work in progress and represent different types of minimal api implementations.  You are free to take any of the code in these repositories.  I plan to update the solutions as I continue learning more about how to implement features in minimal apis.
+
+## Future
+- add Authentication/Authorization
+- build Data and Service projects add MVC project to show differences
+
+
+Api --> Infrastructure <-- MvcApi
+               |
+              Data
