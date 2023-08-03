@@ -10,7 +10,3 @@ The example solutions are a work in progress and represent different types of mi
 - add Authentication/Authorization
 - build Data and Service projects add MVC project to show differences
 
-
-Api --> Infrastructure <-- MvcApi
-               |
-              Data
